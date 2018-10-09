@@ -457,15 +457,15 @@ htt=[]
 to=[]
 pm=-1
 nbn=0
-height = 600
-width = 900
+height = 800
+width = 1200
 count=0
 nbmouv=30
 gg=0
 pb_infecte=1
 pb_mort=0.1
 #taille des celluses
-c = 15
+c = 10
 uoi=0
 dico_case_1=0
 dico_case_2=0
@@ -476,7 +476,7 @@ nb_n=0
 nb_b=0
 nb_r=0
 #vitesse de l'animation (en réalité c'est l'attente entre chaque étapes en ms)
-vitesse=10
+vitesse=5
 
 flag=0
 dico_etats = {} #dictionnaire contenant le nombre de cellules vivantes autour de chaque cellule
